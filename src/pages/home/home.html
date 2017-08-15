@@ -18,8 +18,15 @@
 					<ion-list>
 	<ion-item  *ngFor="let logInfo of logContent">
 
+
+	Date: {{logInfo.date}}<br>
+	Time: {{logInfo.time}}<br>	
 	Name:  {{logInfo.name}}<br>
-	Status: {{logInfo.status}}
+	Status: {{logInfo.status}}<br>
+	<button ion-button (click)="logDetails(logInfo)">Details</button>
+	
+	
+
 	</ion-item>
 	</ion-list>
 
@@ -29,7 +36,7 @@
 			</div>
 
 			<div id="logCol">
-			
+			<pre>{{logDetail}}</pre>
 			</div>
 	
 	</div>
