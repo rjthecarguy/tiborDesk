@@ -8,7 +8,7 @@ page-home {
 #colHolder {
 
 	height: 80vh;
-	background-color: red;
+	
 	width:100%;
 
 	
@@ -18,12 +18,13 @@ page-home {
 #logListCol {
 	height:100%;
 	width: 25%;
-	background-color: blue;
 	float: left;
+
 }
 
 #logCol {
-	background-color: green;
+	width:75%;
+	
 	height: 80vh;
 }
 

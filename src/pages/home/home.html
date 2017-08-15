@@ -13,6 +13,18 @@
 	<div id="colHolder">
 
 			<div id="logListCol">
+
+
+					<ion-list>
+	<ion-item  *ngFor="let logInfo of logContent">
+
+	Name:  {{logInfo.name}}<br>
+	Status: {{logInfo.status}}
+	</ion-item>
+	</ion-list>
+
+
+
 			
 			</div>
 
