@@ -19,8 +19,10 @@
 	<ion-item  *ngFor="let logInfo of logContent">
 
 
-	Date: {{logInfo.date}}<br>
-	Time: {{logInfo.time}}<br>	
+	On Duty Date: {{logInfo.onDate}}<br>
+	On Duty Time: {{logInfo.onTime}}<br>	
+	Off Duty Date: {{logInfo.offDate}}<br>
+	Off Duty Time: {{logInfo.offTime}}<br>
 	Name:  {{logInfo.name}}<br>
 	Status: {{logInfo.status}}<br>
 	<button ion-button (click)="logDetails(logInfo)">Details</button>
